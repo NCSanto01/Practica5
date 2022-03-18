@@ -16,3 +16,8 @@ Si nos desplazamos a parte de abajo del todo, encontramos el formulario de conta
 Si rellenamos la información, y pulsamos Enviar, se enviará la información al controlador, y desaparecerá de los campos del formulario
 Una vez hecho esto, si pulsamos en recuperar información, se ejecutará una petición GET y se volverá a mostrar la información introducida
 en los campos del formulario.
+
+Se muestra el correcto funcionamiento del POST:
+
+![image](https://user-images.githubusercontent.com/78079809/159046462-a6f824b6-f0a3-4ca5-9b10-2e09f0b9d211.png)
+

@@ -109,7 +109,7 @@
 
         <div class="mt-5 mb-5 d-flex justify-content-center">
 
-          <form class="form" action="/signup" method="post">
+          <form class="form">
             <label class="text"for="fname">Nombre:</label>
             <input type="text" id="fname" name="fname"><br><br>
 
@@ -122,6 +122,7 @@
                 <option value="value2" selected="">DNI</option>
                 <option value="value3">NIE</option>
             </select><br><br>
+            
             <label class="text" for="identification">Identificación:</label>
             <input type="text" id="identification" name="identification"><br>
             <label class="text" for="email"> Email: </label>
@@ -129,8 +130,8 @@
             <button onClick="postClientData()" class="btn btn-primary" type="button">
                 <p class="text-white" >Enviar</p> 
             </button>
-            <button onClick="getClientData()" class="btn btn-primary">
-                <p class="text-white" >Ver información</p> 
+            <button onClick="getClientData()" class="btn btn-primary" type="button">
+                <p class="text-white" >Recuperar Información</p> 
             </button>
         </form>
       </div>

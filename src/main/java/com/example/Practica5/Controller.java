@@ -8,14 +8,15 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
     Cliente cliente;
 
-    @GetMapping("/clientes")
+    @GetMapping("/getClientes")
     public Cliente getClientes(){
         return cliente;
     }
 
-    @PostMapping("/clientes")
-    public void postCliente(@RequestBody Cliente cliente){
+    @PostMapping("/setClientes")
+    public Cliente postCliente(@RequestBody Cliente cliente){
         this.cliente=cliente;
+        return cliente;
     }
     
 }

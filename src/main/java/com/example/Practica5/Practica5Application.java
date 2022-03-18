@@ -12,7 +12,7 @@ public class Practica5Application {
 	}
 
 	@RequestMapping("/")
-	public String servicios()
+	public String index()
 	{
 		return "servicios.html";
 	}
